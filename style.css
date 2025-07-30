@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.vidas {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.palabra {
+  font-size: 2rem;
+  margin: 1rem 0;
+  letter-spacing: 0.5rem;
+}
+
+.letras-usadas {
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.teclado button {
+  margin: 5px;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.teclado button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.botones {
+  margin-top: 2rem;
+}
+
+.botones button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contador {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}

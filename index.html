@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Descubre la Palabra</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="descubre.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Descubre la Palabra</h1>
+    
+    <div class="vidas" id="vidas">Vidas: ❤️❤️❤️❤️❤️</div>
+
+    <div class="palabra" id="palabra">_ _ _ _ _</div>
+
+    <div class="letras-usadas" id="letrasUsadas">Letras usadas: </div>
+
+    <div class="teclado" id="teclado">
+      <!-- Letras A-Z se generan por JS -->
+    </div>
+
+    <div class="botones">
+      <button onclick="iniciarJuego()">Nuevo Juego</button>
+      <button onclick="reiniciarContador()">Reiniciar Contador</button>
+    </div>
+
+    <div class="contador">
+      Ganadas: <span id="ganadas">0</span> | Perdidas: <span id="perdidas">0</span>
+    </div>
+  </div>
+</body>
+</html>
